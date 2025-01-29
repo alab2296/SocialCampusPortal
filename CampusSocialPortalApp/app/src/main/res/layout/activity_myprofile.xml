@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anonymous.campussocialportal.myprofile"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/lblName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginTop="40dip"
+        android:layout_marginBottom="10dip"/>
+
+
+    <TextView
+        android:id="@+id/lblEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginBottom="40dip"/>
+    <TextView
+        android:id="@+id/lblId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginBottom="40dip"/>
+    <TextView
+        android:id="@+id/lblFname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginBottom="40dip"/>
+    <TextView
+        android:id="@+id/lblRegno"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginBottom="40dip"/>
+    <TextView
+        android:id="@+id/lblRollno"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginBottom="40dip"/>
+    <TextView
+        android:id="@+id/lblAddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginBottom="40dip"/>
+    <TextView
+        android:id="@+id/lblImg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginBottom="40dip"/>
+    <TextView
+        android:id="@+id/lblPhone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginBottom="40dip"/>
+
+
+
+</LinearLayout>
+

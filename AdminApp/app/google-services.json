@@ -1,0 +1,231 @@
+{
+  "project_info": {
+    "project_number": "1061422389555",
+    "firebase_url": "https://pietportal-f50ce.firebaseio.com",
+    "project_id": "pietportal-f50ce",
+    "storage_bucket": "pietportal-f50ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061422389555:android:0af2b49cc8b27d82",
+        "android_client_info": {
+          "package_name": "com.example.anonymous.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061422389555-hilf8732ekd8ncn6ceaantltce4pibir.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anonymous.admin",
+            "certificate_hash": "0173c86fc2bc8be0900d7ce6ce2480d5231ffb70"
+          }
+        },
+        {
+          "client_id": "1061422389555-1pn64dn0sg8oo4808nl3n5ht6d1m91vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBQZZzHztL570S4N07o2E9tVyzRNOsSxo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061422389555-1pn64dn0sg8oo4808nl3n5ht6d1m91vv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061422389555:android:6b0358c1591b2c80",
+        "android_client_info": {
+          "package_name": "com.example.anonymous.campussocialportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061422389555-tk9vosqpgnkfjamo1o0rbjjn3jgkgfc1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anonymous.campussocialportal",
+            "certificate_hash": "1929f9e0c76417e243f79369261ea73597d4539c"
+          }
+        },
+        {
+          "client_id": "1061422389555-1pn64dn0sg8oo4808nl3n5ht6d1m91vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBQZZzHztL570S4N07o2E9tVyzRNOsSxo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061422389555-1pn64dn0sg8oo4808nl3n5ht6d1m91vv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061422389555:android:eb99001b2f39bcff",
+        "android_client_info": {
+          "package_name": "com.example.anonymous.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061422389555-7t9jgrvhspnsnhma3qo3v13te2fhiq2g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anonymous.driver",
+            "certificate_hash": "1929f9e0c76417e243f79369261ea73597d4539c"
+          }
+        },
+        {
+          "client_id": "1061422389555-1pn64dn0sg8oo4808nl3n5ht6d1m91vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBQZZzHztL570S4N07o2E9tVyzRNOsSxo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061422389555-1pn64dn0sg8oo4808nl3n5ht6d1m91vv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061422389555:android:17488500413ed314",
+        "android_client_info": {
+          "package_name": "com.example.anonymous.pietadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061422389555-6cbp977g8ann2a068c5cfv6ohg05ldkq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anonymous.pietadmin",
+            "certificate_hash": "0173c86fc2bc8be0900d7ce6ce2480d5231ffb70"
+          }
+        },
+        {
+          "client_id": "1061422389555-1pn64dn0sg8oo4808nl3n5ht6d1m91vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBQZZzHztL570S4N07o2E9tVyzRNOsSxo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061422389555-1pn64dn0sg8oo4808nl3n5ht6d1m91vv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061422389555:android:ef27782bd96c3382",
+        "android_client_info": {
+          "package_name": "com.example.storage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061422389555-ngpio65et1nhd3nsnqkvhdgbodmfhcte.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.storage",
+            "certificate_hash": "0173c86fc2bc8be0900d7ce6ce2480d5231ffb70"
+          }
+        },
+        {
+          "client_id": "1061422389555-1pn64dn0sg8oo4808nl3n5ht6d1m91vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBQZZzHztL570S4N07o2E9tVyzRNOsSxo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061422389555-1pn64dn0sg8oo4808nl3n5ht6d1m91vv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

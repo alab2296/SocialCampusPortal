@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#00a478</color>
+    <color name="colorPrimaryDark">#00a478</color>
+
+-->
+
+
+    <color name="purple_500">#84b5d8</color>
+    <color name="deep_purple_500">#6df1a2</color>
+    <color name="indigo_500">#674fc6</color>
+    <color name="blue_500">#42f4c5</color>
+    <color name="cyan_500">#6dd5f2</color>
+    <color name="light_blue_500">#00ffd0</color>
+
+
+
+
+    <color name="colorPrimary">#00B386</color>
+    <color name="colorPrimaryDark">#004F3B</color>
+    <color name="colorAccent">#F44336</color>
+
+    <color name="colorAccent2">#FF4081</color>
+
+    <color name="whiteTransparentHalf">#80ffffff</color>
+
+    <color name="likeBtnGray">#747474</color>
+    <color name="likeBtnAccent">#F44336</color>
+</resources>

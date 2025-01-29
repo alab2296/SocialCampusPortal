@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/myprofile" android:title="My Profile" android:icon="@drawable/ic_user"/>
+    <item android:id="@+id/one" android:title="Messages" android:icon="@drawable/ic_message_closed_envelope"/>
+    <item android:id="@+id/two" android:title="Events And Updates" android:icon="@drawable/ic_calendar_clock"/>
+    <item android:id="@+id/zero" android:title="Time Table" android:icon="@drawable/ic_event_date_and_time_symbol"/>
+    <item android:id="@+id/three" android:title="Attendance" android:icon="@drawable/ic_icon"/>
+    <item android:id="@+id/four" android:title="Sessionals" android:icon="@drawable/ic_experiment_results"/>
+    <item android:id="@+id/five" android:title="Result Report" android:icon="@drawable/ic_test_results"/>
+    <item android:id="@+id/six" android:title="Route Tracking" android:icon="@drawable/ic_route"/>
+    <item android:id="@+id/setting" android:title="Setting" android:icon="@drawable/settings"/>
+    <item android:id="@+id/logout" android:title="Logout" android:icon="@drawable/ic_power_button"/>
+
+</menu>

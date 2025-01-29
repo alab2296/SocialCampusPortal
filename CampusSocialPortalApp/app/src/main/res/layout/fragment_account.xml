@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountFragment">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/setup_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/default_image" />
+
+        <TextView
+            android:id="@+id/textViewname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/setup_image"
+            android:layout_centerHorizontal="true"
+            android:text=""
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/textViewrollno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewname"
+            android:layout_centerHorizontal="true"
+            android:text=""
+            android:typeface="monospace" />
+    </RelativeLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/blog_list_view_account"
+        android:layout_width="match_parent"
+        android:layout_marginTop="130dp"
+        android:layout_height="match_parent" />
+</FrameLayout>
