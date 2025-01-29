@@ -10,7 +10,7 @@ The **Social Campus Portal** is a comprehensive Android-based solution designed 
 
 ## 🗂 Project Structure
 SocialCampusPortal/ ├── AdminApp/ │ └── (Admin application files) ├── CampusSocialPortalApp/ │ └── (Campus Social Portal application files) └── 
----
+---README.md
 
 ## 🚀 Features
 
