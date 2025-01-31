@@ -50,7 +50,9 @@ SocialCampusPortal/ ├── AdminApp/ │ └── (Admin application files) 
 ---
 
 ## 📸 Screenshots
-**[]**
+**[![SCP2](https://github.com/user-attachments/assets/be4e7a82-3013-4e4f-a400-0d953b3b9121)
+
+![SCP1](https://github.com/user-attachments/assets/9a2f750e-e0f0-41fa-8f61-ccd076a544cc)]**
 
 ---
 
