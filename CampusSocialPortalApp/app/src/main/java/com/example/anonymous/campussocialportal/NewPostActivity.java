@@ -101,7 +101,12 @@ public class NewPostActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                final String desc = newPostDesc.getText().toString();
+                final String desc = newPostDesc.getText().toString().trim();
+
+                if (desc.length() > 500) {
+                    Toast.makeText(NewPostActivity.this, "Description is too long (max 500 characters).", Toast.LENGTH_LONG).show();
+                    return;
+                }
 
                 if(!TextUtils.isEmpty(desc) && postImageUri != null){
 

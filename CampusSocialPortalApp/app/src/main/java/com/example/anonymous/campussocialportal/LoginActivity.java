@@ -111,8 +111,8 @@ public class LoginActivity extends AppCompatActivity {
 
                             } else {
 
-                                String errorMessage = task.getException().getMessage();
-                                Toast.makeText(LoginActivity.this, "Error : " + errorMessage, Toast.LENGTH_LONG).show();
+                                Toast.makeText(LoginActivity.this,
+                                        "Login failed. Check your email and password.", Toast.LENGTH_LONG).show();
 
 
                             }

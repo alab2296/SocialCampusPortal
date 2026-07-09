@@ -148,12 +148,19 @@ public class CommentsActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                String comment_message = comment_field.getText().toString();
+                String comment_message = comment_field.getText().toString().trim();
 
+                if (comment_message.isEmpty()) {
+                    Toast.makeText(CommentsActivity.this, "Comment cannot be empty.", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                if (comment_message.length() > 300) {
+                    Toast.makeText(CommentsActivity.this, "Comment is too long (max 300 characters).", Toast.LENGTH_SHORT).show();
+                    return;
+                }
 
-                    Map<String, Object> commentsMap = new HashMap<>();
-
-                    commentsMap.put("message", comment_message);
+                Map<String, Object> commentsMap = new HashMap<>();
+                commentsMap.put("message", comment_message);
                     commentsMap.put("user_id", current_user_id);
                     commentsMap.put("timestamp", FieldValue.serverTimestamp());
                 commentsMap.put("username", userName);
@@ -165,7 +172,7 @@ public class CommentsActivity extends AppCompatActivity {
 
                             if(!task.isSuccessful()){
 
-                                Toast.makeText(CommentsActivity.this, "Error Posting Comment : " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                                Toast.makeText(CommentsActivity.this, "Failed to post comment. Please try again.", Toast.LENGTH_SHORT).show();
 
                             } else {
 
