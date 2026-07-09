@@ -94,8 +94,8 @@ public class RegisterActivity extends AppCompatActivity {
                             startActivity(setupIntent);
                             finish();
                         } else {
-                            Toast.makeText(RegisterActivity.this,
-                                    "Registration failed. Please try again.", Toast.LENGTH_LONG).show();
+                            String error = task.getException() != null ? task.getException().getMessage() : "Unknown error";
+                            Toast.makeText(RegisterActivity.this, error, Toast.LENGTH_LONG).show();
                         }
                         reg_progress.setVisibility(View.INVISIBLE);
                     }
