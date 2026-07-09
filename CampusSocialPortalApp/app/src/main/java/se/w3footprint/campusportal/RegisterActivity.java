@@ -3,6 +3,7 @@ package se.w3footprint.campusportal;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.annotation.NonNull;
+import android.util.Log;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -94,8 +95,10 @@ public class RegisterActivity extends AppCompatActivity {
                             startActivity(setupIntent);
                             finish();
                         } else {
-                            String error = task.getException() != null ? task.getException().getMessage() : "Unknown error";
-                            Toast.makeText(RegisterActivity.this, error, Toast.LENGTH_LONG).show();
+                            Exception e = task.getException();
+                            String error = e != null ? e.getMessage() : "Unknown error";
+                            Log.e("RegisterActivity", "Registration failed: " + error, e);
+                            Toast.makeText(RegisterActivity.this, "Error: " + error, Toast.LENGTH_LONG).show();
                         }
                         reg_progress.setVisibility(View.INVISIBLE);
                     }
