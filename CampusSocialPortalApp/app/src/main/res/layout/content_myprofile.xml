@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.anonymous.campussocialportal.myprofile"
+    tools:context="se.w3footprint.campusportal.myprofile"
     tools:showIn="@layout/activity_myprofile">
 
 </android.support.constraint.ConstraintLayout>

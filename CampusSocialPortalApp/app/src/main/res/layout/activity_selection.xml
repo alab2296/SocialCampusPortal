@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.anonymous.campussocialportal.Selection">
+    tools:context="se.w3footprint.campusportal.Selection">
 
     <ImageView
         android:id="@+id/route1"
